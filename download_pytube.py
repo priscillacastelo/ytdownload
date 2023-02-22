@@ -2,7 +2,7 @@ from pytube import YouTube
 from moviepy.editor import *
 import streamlit as st
 
-st.title('Youtube to Mp3')
+st.title(':heart: Youtube to Mp3')
 URL = st.text_input('YouTube URL:')
 
 if st.button('Generate Audio File'):
